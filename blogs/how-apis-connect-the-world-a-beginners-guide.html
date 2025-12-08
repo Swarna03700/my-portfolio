@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How APIs Connect the World: A Beginner's Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/blog-page-style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Back to Home</a></li>
+        </ul>
+      </nav>
+      <h1>How APIs Connect the World: A Beginner's Guide</h1>
+      <img
+        src="../assets/api-metaphor-waiter-client-chef.png"
+        alt="api-metaphor-waiter-client-chef"
+      />
+    </header>
+
+    <main>
+      <section class="blog-content">
+        <p>
+          Imagine if you had to physically visit a bank branch every time you
+          wanted to check your balance or transfer funds. The commute and the
+          queues would be unbearable. Or, imagine if you had to visit every
+          single airline website individually just to find the cheapest ticket.
+          Sounds frustrating, right?
+        </p>
+        <h3>What is an API?</h3>
+        <p>
+          APIs, or Application Programming Interfaces, are the invisible players
+          every time you hit the 'Check Balance' button, transfer money to a
+          friend, or check flight prices. Different software systems communicate
+          and interact with each other using these APIs. For example, when you
+          check your balance, your mobile banking app sends a request to the
+          bank's API server. The bank's server then sends back a response to
+          your app. The entire communication happens via APIs. If APIs didn't
+          exist, there would be no way for you to interact with your bank
+          digitally.
+        </p>
+        <h3>Think of it like a restaurant:</h3>
+        <p>
+          Imagine you (the Banking App) are sitting at a table ordering food
+          (Data). You tell your order to the waiter (the API), who takes it to
+          the kitchen (the Server). The kitchen cooks the food, and the waiter
+          brings it back to you. You never enter the kitchen yourself; the
+          entire communication happens through the waiter. Simple, right?
+        </p>
+        <h3>Why use APIs?</h3>
+        <p>
+          You might wonder: Why doesn't the banking app just connect directly to
+          the bank's database? Or why doesn't a travel app connect directly to
+          the airline's servers? There are three main reasons:
+        </p>
+        <ul>
+          <li>
+            <b>Security:</b> Direct connections introduce massive risks. If an
+            app had direct access to a bank's database, a hacker could corrupt
+            or steal sensitive data. APIs act as a gatekeeper; they ensure the
+            app asks for permission before touching any data.
+          </li>
+          <li>
+            <b>Simplicity (Decoupling):</b> APIs simplify the experience by
+            decoupling the complex server-side processing from the user-facing
+            app. The app developer doesn't need to worry about the bank's
+            complex mainframe code; they just need to know how to ask the API
+            for a balance.
+          </li>
+          <li>
+            <b>Reusability:</b> APIs are reusable. Once a "Check Balance" API is
+            built, it can be used by the mobile app, the website, and even the
+            ATM. This saves time, money, and effort by not having to rebuild the
+            same solution for every new device.
+          </li>
+        </ul>
+        <h3>Types of APIs</h3>
+        <p>
+          Not all APIs are open to everyone. We typically categorize them into
+          three types based on accessibility:
+        </p>
+        <ul>
+          <li>
+            <b>Private (Internal) APIs:</b> These are used exclusively by
+            internal teams within an organization. For example, a bank might
+            have an internal API that the payroll department uses to calculate
+            employee salaries.
+          </li>
+          <li>
+            <b>Partner APIs:</b> These are shared only with specific business
+            partners who have authorization. A classic example is a travel
+            aggregator app connecting to an airline's API to book tickets on
+            your behalf.
+          </li>
+          <li>
+            <b>Public (Open) APIs:</b> These are available for any external
+            developer to use. Popular examples include the Google Maps API (for
+            maps) or the Spotify API (for music data).
+          </li>
+        </ul>
+        <p>
+          In today's fast-paced digital world, APIs are the engines driving
+          business growth. Developers are the craftsmen building these invisible
+          bridges. Whether you plan to build a new API solution to help a
+          business, or simply use an existing one to solve a problem, there has
+          never been a better time to get started. Follow for more insights on
+          software development.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-bio">
+          <div class="bio-text">
+            <h4>About the Author</h4>
+            <p>
+              Hi, I'm <strong>Swarnadeep</strong>. I'm a developer exploring the
+              world of APIs, backend systems, and web technologies. Thanks for
+              reading!
+            </p>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <ul class="social-links">
+            <li>
+              <a href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            &copy; 2025 Swarnadeep Ghosh .
+            <a href="mailto:swarnadeepghosh441@gmail.com">Contact</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
